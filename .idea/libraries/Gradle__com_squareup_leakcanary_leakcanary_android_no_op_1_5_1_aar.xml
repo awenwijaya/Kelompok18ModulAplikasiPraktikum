@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.leakcanary:leakcanary-android-no-op:1.5.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ccb9786606bc1ca90b615d728d06716/jetified-leakcanary-android-no-op-1.5.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59b3ba513b29d4e2cfd52d998b88fe8d/jetified-leakcanary-android-no-op-1.5.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59b3ba513b29d4e2cfd52d998b88fe8d/jetified-leakcanary-android-no-op-1.5.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/59b3ba513b29d4e2cfd52d998b88fe8d/jetified-leakcanary-android-no-op-1.5.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-android-no-op/1.5.1/9dbcaf0634f65a2f068a4f87e0e2d45b9c33c9bc/leakcanary-android-no-op-1.5.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-android-no-op/1.5.1/a6dfa035a1abca39503f8c0d619f19269b9e441d/leakcanary-android-no-op-1.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
