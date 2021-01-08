@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailRequestAcaraAdminActivity">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Lihat Detail Request Acara"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Setujuilah atau tolak permintaan acara ini."
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewKegiatanRequestAdmin"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Nama Acara:"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_below="@+id/imageViewKegiatanRequestAdmin"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/NamaAcaraRequestDetailAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Nama Acara"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_below="@+id/imageViewKegiatanRequestAdmin"
+        android:layout_toRightOf="@+id/textView31"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Tanggal Pelaksanaan:"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_below ="@+id/NamaAcaraRequestDetailAdmin"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/TanggalAcaraRequestDetailAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Tanggal Pelaksanaan"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_below="@+id/textView31"
+        android:layout_toRightOf="@+id/textView32"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Lokasi Acara"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_below ="@+id/textView32"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/LokasiAcaraRequestDetailAdmin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Lokasi Acara"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_below="@+id/textView32"
+        android:layout_toRightOf="@+id/textView33"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Alamat:"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_below ="@+id/textView33"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/AlamatAcaraRequestDetailAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Alamat"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_below="@+id/textView33"
+        android:layout_toRightOf="@+id/textView34"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Permintaan dibuat oleh:"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView34"/>
+
+    <TextView
+        android:id="@+id/NamaPenggunaRequestDetailAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Nama Pengguna"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/KeteranganAcaraRequestDetailAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Keterangan Acara"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/NamaPenggunaRequestDetailAdmin" />
+
+    <Button
+        android:id="@+id/btnApproveDetailAcaraAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="@font/montserrat_bold"
+        android:shadowColor="#D5D1D1"
+        android:text="APPROVE"
+        android:textSize="15sp"
+        android:layout_below="@+id/KeteranganAcaraRequestDetailAdmin"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:id="@+id/btnTolakDetailAcaraAdmin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fontFamily="@font/montserrat_bold"
+        android:shadowColor="#D5D1D1"
+        android:text="TOLAK"
+        android:textColor="#B71C1C"
+        android:textSize="15sp"
+        android:layout_below="@+id/KeteranganAcaraRequestDetailAdmin"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"/>
+    
+    <TextView
+        android:id="@+id/imageURLDetailRequestAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="88dp"
+        android:text="TextView"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/textView31"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewKegiatanRequestAdmin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/white"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idAcaraPengguna"
+            android:layout_alignParentLeft="true"
+            android:textSize="15sp"
+            android:textColor="@android:color/transparent"
+            android:fontFamily="@font/montserrat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNamaAcaraRequestPengguna"
+            android:hint="Nama Acara"
+            android:layout_alignParentLeft="true"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTanggalAcaraPengguna"
+            android:hint="Tanggal Acara"
+            android:layout_alignParentRight="true"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLokasiAcaraRequestPengguna"
+            android:hint="Tempat Acara"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvNamaAcaraRequestPengguna"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAlamatRequestPengguna"
+            android:hint="Alamat"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvLokasiAcaraRequestPengguna"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvKeteranganRequestPengguna"
+            android:hint="Keterangan"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvAlamatRequestPengguna"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

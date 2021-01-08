@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserHomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SelamatDatangHome"
+        android:text="Selamat datang!"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/namaPenggunaHome"
+        android:text="Nama Pengguna"
+        android:layout_below="@+id/SelamatDatangHome"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEditProfile"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="140dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/editprofilepengguna" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabRequest"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="75dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/requestnew" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabLogoutUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="30dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/logoutuser" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewKegiatanUser"
+        android:layout_below="@+id/namaPenggunaHome"
+        android:layout_marginTop="15dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

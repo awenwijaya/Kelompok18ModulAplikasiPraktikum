@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relativeLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".events.EditEventActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idAcaraEdit"
+        android:textColor="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Edit Kegiatan"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:id="@+id/keterangan"
+        android:text="Silahkan ubah sesuai dengan kebutuhan"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserrat"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/keterangan"
+        android:id="@+id/textViewNamaAcara"
+        android:text="Nama Acara"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewNamaAcara"
+        android:id="@+id/NamaAcaraEdit"
+        android:ems="10"
+        android:hint="Nama Acara"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NamaAcaraEdit"
+        android:id="@+id/textViewTanggalAcara"
+        android:text="Tanggal Acara"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTanggalAcara"
+        android:id="@+id/TanggalAcaraEdit"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:hint="Tanggal Acara"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TanggalAcaraEdit"
+        android:id="@+id/textViewTempatAcara"
+        android:text="Tempat Acara"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempatAcaraEdit"
+        android:layout_below="@+id/textViewTempatAcara"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:hint="Tempat Acara"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tempatAcaraEdit"
+        android:id="@+id/textViewAlamat"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Alamat"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/textViewAlamat"
+        android:id="@+id/alamatAcaraEdit"
+        android:layout_marginLeft="20dp"
+        android:hint="Alamat Acara"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alamatAcaraEdit"
+        android:id="@+id/textViewKeterangan"
+        android:text="Keterangan Acara"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/keteranganEdit"
+        android:layout_below="@+id/textViewKeterangan"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:hint="Keterangan"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnSimpanEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/keteranganEdit"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="SIMPAN" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/keteranganEdit"
+        android:layout_marginRight="80dp"
+        android:id="@+id/btnBatalEdit"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:text="BATAL"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@android:color/transparent"/>
+
+
+</RelativeLayout>

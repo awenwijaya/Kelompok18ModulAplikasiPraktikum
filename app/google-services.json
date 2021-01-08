@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252060489822",
+    "project_id": "sttproject-e7a03",
+    "storage_bucket": "sttproject-e7a03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252060489822:android:f925dbb82f2934b06a7ccf",
+        "android_client_info": {
+          "package_name": "klp18.praktikumprogmob.stt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252060489822-4oq9clvhoffk33is8oa1o483muj7arnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmfEKsq4KtNe6ILLDZthFDpD0aA3ZbZGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252060489822-4oq9clvhoffk33is8oa1o483muj7arnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

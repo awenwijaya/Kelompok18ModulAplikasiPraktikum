@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailRequestAcaraPenggunaActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Request Acara"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_below="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan lihat detail dari request acara"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView30">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/emailPengguna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imageViewRequestAcaraPenggunaDetail"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Nama Acara:"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_below="@+id/imageViewRequestAcaraPenggunaDetail"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/NamaAcaraRequestDetailUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="Nama Acara"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_below="@+id/imageViewRequestAcaraPenggunaDetail"
+                android:layout_toRightOf="@+id/textView31"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Tanggal Pelaksanaan:"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_below="@+id/NamaAcaraRequestDetailUser"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/TanggalAcaraRequestDetailUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="Tanggal Pelaksanaan"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/textView32"
+                android:layout_below="@+id/NamaAcaraRequestDetailUser"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Alamat:"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_below="@+id/TanggalAcaraRequestDetailUser"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:id="@+id/AlamatAcaraRequestDetailUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="Alamat"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/textView34"
+                android:layout_below="@+id/TanggalAcaraRequestDetailUser"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Lokasi Acara"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_below="@+id/AlamatAcaraRequestDetailUser"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:id="@+id/LokasiAcaraRequestDetailUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="Lokasi Acara"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/textView33"
+                android:layout_below="@+id/AlamatAcaraRequestDetailUser"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Permintaan dibuat oleh:"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_below="@+id/LokasiAcaraRequestDetailUser"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/NamaPenggunaRequestDetailUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="Nama Pengguna"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_below="@+id/textView35"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp" />
+
+            <TextView
+                android:id="@+id/KeteranganAcaraRequestDetailUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat"
+                android:text="Keterangan Acara"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:layout_below="@+id/NamaPenggunaRequestDetailUser"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/imageURLDetailRequestUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="86dp"
+                android:layout_marginBottom="88dp"
+                android:text="TextView"
+                android:visibility="gone" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/KeteranganAcaraRequestDetailUser"
+                android:text="EDIT"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/btnEditRequestAcaraUserDetail"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/KeteranganAcaraRequestDetailUser"
+                android:layout_toRightOf="@+id/btnEditRequestAcaraUserDetail"
+                android:text="DELETE"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/btnDeleteRequestAcaraUserDetail"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
